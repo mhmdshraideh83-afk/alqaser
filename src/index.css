@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Das Original schaltet Bewegung global ab statt pro Utility. */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
